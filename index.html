@@ -5,9 +5,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Etch-A-Sketch</title>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
     </head>
-    <body>
+    <header>
         <h1>Etch-A-Sketch</h1>
+    </header>
+    <body>
+        <ul class="options-buttons-box">
+            <input type="color" class="color-selector">
+            <button type="button" class="option-button" id="rainbow">Rainbow</button>
+            <button type="button" class="option-button" id="gray-scale">Gray Scale</button>
+            <button type="button" class="option-button" id="eraser">Eraser</button>
+            <input type="range" class="size-range" min="4" max="64" defaultvalue="16">
+            <button type="button" class="option-button" id="new-grid">New Grid</button>
+            <button type="button" class="option-button" id="clear-grid">Clear Grid</button>
+        </ul>
+        <div class="grid-container"></div>
+        <script src="script.js"></script>
     </body>
+    <footer></footer>
 </html>
