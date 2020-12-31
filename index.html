@@ -13,11 +13,11 @@
             </header>
             <ul class="options-buttons-box">
                 <input type="color" class="color-selector">
-                <button type="button" class="option-button" id="rainbow">Rainbow</button>
-                <button type="button" class="option-button" id="gray-scale">Gray Scale</button>
-                <button type="button" class="option-button" id="eraser">Eraser</button>
-                <input type="range" class="size-range" min="4" max="64" defaultvalue="16">
-                <button type="button" class="option-button" id="new-grid">New Grid</button>
+                <button type="button" class="option-button" data-color="rainbow" id="rainbow">Rainbow</button>
+                <button type="button" class="option-button" data-color="gray" id="gray-scale">Gray Scale</button>
+                <button type="button" class="option-button" data-color="eraser" id="eraser">Eraser</button>
+                <input type="range" min="4" max="64" value="16" class="size-range">
+                <label id='size-label' for='grid-size'></label>
                 <button type="button" class="option-button" id="clear-grid">Clear Grid</button>
             </ul>
             <main>
