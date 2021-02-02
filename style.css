@@ -17,11 +17,17 @@ body {
 header {
     grid-area: header;
     margin: 0;
-    background-color: green;
+    background-color: #4CAF50;
     display: flex;
     align-items: center;
-    padding-left: 3em;
+    padding-left: 23em;
     border-bottom-style: solid;
+}
+
+.title {
+    color: white;
+    font-size: 4.7em;
+    text-decoration: underline dashed;
 }
 
 ul {
@@ -60,6 +66,28 @@ main {
 footer {
     grid-area: footer;
     margin: 0;
-    background-color: green;
+    background-color: #4CAF50;
     border-top-style: solid;
+}
+
+.option-button {
+    display: inline-block;
+    border: none;
+    border-radius: 8%;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    background: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+.option-button:hover {
+    background-color: white;
+    color: #4CAF50;
+    font-weight: 800;
+    border: 1px solid #4CAF50;
 }
